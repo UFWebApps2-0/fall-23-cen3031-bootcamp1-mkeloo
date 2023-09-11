@@ -34,7 +34,7 @@ var requestHandler = function (request, response) {
   } else {
     // for everything else, send a 404 error
     response.writeHead(404, { 'Content-Type': 'text/plain' });
-    response.end('Not Found');
+    response.end('Error 404: Not Found');
   }
 };
 
