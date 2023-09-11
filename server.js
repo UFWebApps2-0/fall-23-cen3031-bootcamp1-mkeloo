@@ -17,6 +17,7 @@ var requestHandler = function (request, response) {
 
   //   console.log(request.method, 'this is the method');
   // console.log(request.method === 'GET', 'this is the GET method');
+  // console.log(request.method === 'GET' && request.url === '/listings');
 
   //   console.log(request.headers, 'this is the headers');
   // console.log(request.headers, 'this is the headers');
