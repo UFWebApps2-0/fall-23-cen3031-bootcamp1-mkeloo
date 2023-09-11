@@ -39,9 +39,7 @@ var requestHandler = function (request, response) {
 
 fs.readFile('listings.json', 'utf8', function (err, data) {
   // Check for errors
-  if (err) {
-    throw err;
-  }
+  if (err) throw err;
 
   // parse the read data and save it into the listingData variable
   listingData = JSON.parse(data);
